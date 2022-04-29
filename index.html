@@ -11,7 +11,18 @@
 <body>
     <div class="calculadora">
         <div class="visor"></div>
-        <div class="teclas"></div>
+        <div class="teclas">
+            <div class="parte-numerica"></div>
+            <div class="parte-sinais">
+                <button onclick="colocarVisor(this)">+</button>
+                <button onclick="colocarVisor(this)">-</button>
+                <button onclick="colocarVisor(this)">*</button>
+                <button onclick="colocarVisor(this)">/</button>
+                <button onclick="pegarValor()">=</button>
+                <button onclick="limparVisor()">CE</button>
+            </div>
+        </div>
+       
     </div>
     <script src="./scripts/scripts.js"></script>
 </body>
